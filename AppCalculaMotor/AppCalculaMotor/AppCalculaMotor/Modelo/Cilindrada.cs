@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AppCalculaMotor.Modelo
 {
-    public    class Cilindrada
+    public class Cilindrada
     {
         public decimal DiametroCilintro { get; set; }
 

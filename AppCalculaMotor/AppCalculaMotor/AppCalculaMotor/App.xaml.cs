@@ -11,7 +11,7 @@ namespace AppCalculaMotor
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage (new Apresentação.PaginaInicial());
 		}
 
 		protected override void OnStart ()

@@ -156,4 +156,7 @@
       <Name>AppCalculaMotor</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icone-Motor.svg" />
+  </ItemGroup>
 </Project>
