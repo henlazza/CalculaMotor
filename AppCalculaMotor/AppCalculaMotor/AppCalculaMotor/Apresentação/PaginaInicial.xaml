@@ -3,17 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCalculaMotor.Apresentação.PaginaInicial"
              >
-    <ContentPage.Title>Bem Vindo ao CalculaMotor</ContentPage.Title>
+    <ContentPage.Title>CalculaMotor</ContentPage.Title>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="TaxaEstatica" />
         <ToolbarItem Text="Turbo"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="CalculaMotor222222" 
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
-            <Image Source="Icone-Motor.svg" />
+        <StackLayout BackgroundColor="#e1e1e1">
+            <Image Source="Icone-Motor.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
             <Button Text="Calcular Taxa Estática" Clicked="CalcularTaxaEstatica"></Button>
         </StackLayout>
     </ContentPage.Content>

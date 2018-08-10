@@ -157,6 +157,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Icone-Motor.svg" />
+    <BundleResource Include="Resources\Icone-Motor.png" />
   </ItemGroup>
 </Project>

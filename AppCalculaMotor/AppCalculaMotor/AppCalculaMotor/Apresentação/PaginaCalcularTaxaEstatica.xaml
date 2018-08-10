@@ -2,11 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCalculaMotor.Apresentação.PaginaCalcularTaxaEstatica">
+    <ContentPage.Title>Calcular Taxa Estática</ContentPage.Title>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="TaxaEstatica" />
+        <ToolbarItem Text="Turbo"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Calcular Taxa Estática"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="#e1e1e1" Padding="20">
+            <Entry Placeholder="Digite a Cilindrada" x:Name="Cilindrada" WidthRequest="300" HorizontalOptions="Center"></Entry>
+            <Entry Placeholder="Digite o Nº de Cilindros" x:Name="NumCilindros" WidthRequest="300" HorizontalOptions="Center"></Entry>
+            <Entry Placeholder="Digite o Volume da Câmara" x:Name="VolCamara" WidthRequest="300" HorizontalOptions="Center"></Entry>
+            <Button Text="Calcular" WidthRequest="300" HorizontalOptions="Center" x:Name="BotaoCalcularTE"></Button>
+            <Label Text=""
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                x:Name="Resultado" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

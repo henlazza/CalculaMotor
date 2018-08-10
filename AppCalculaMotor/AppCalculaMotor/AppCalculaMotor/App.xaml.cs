@@ -11,7 +11,7 @@ namespace AppCalculaMotor
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage (new Apresentação.PaginaInicial());
+			MainPage = new NavigationPage(new Apresentação.PaginaInicial()) { BarBackgroundColor = Color.FromHex("#A3BD31") };
 		}
 
 		protected override void OnStart ()

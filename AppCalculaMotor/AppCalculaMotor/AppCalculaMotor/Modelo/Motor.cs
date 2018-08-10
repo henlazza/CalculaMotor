@@ -39,7 +39,7 @@ namespace AppCalculaMotor.Modelo
             }
         }
 
-        public Motor(double cilindrada, int numerocilindros, int taxaestatica)
+        public Motor(double cilindrada, int numerocilindros, double taxaestatica)
         {
             double cilindradaIndividual = cilindrada / numerocilindros;
             VolumeCamara = CalcularVolumeCamara(cilindradaIndividual, taxaestatica);
